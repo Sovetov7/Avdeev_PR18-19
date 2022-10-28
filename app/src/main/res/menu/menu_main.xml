@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m1"
+        android:title="История игр"
+        android:visible="true" />
+    <item
+        android:id="@+id/m2"
+        android:title="Классификация" />
+    <item
+        android:id="@+id/m3"
+        android:title="Составляющие"
+        android:visible="true" />
+    <item
+        android:id="@+id/m4"
+        android:title="Разработка "
+        android:visible="true" />
+    <item
+        android:id="@+id/m5"
+        android:title="Игры как искусство"
+        android:visible="true" />
+    <item
+        android:id="@+id/m6"
+        android:title="Игры как обучение"
+        android:visible="true" />
+    <item
+        android:id="@+id/m7"
+        android:title="Индустрия"
+        android:visible="true" />
+
+</menu>

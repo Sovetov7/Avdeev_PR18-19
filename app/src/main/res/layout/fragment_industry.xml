@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Industry">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     Индустрия игр\n"
+                android:textColor="#000000"
+                android:textSize="31dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="279dp"
+                app:srcCompat="@drawable/ind" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=
+                    "   •   Индустрия компьютерных игр зародилась в середине 1970-х годов как движение энтузиастов и за несколько десятилетий выросла из небольшого рынка в мейнстрим с годовой прибылью в 9,5 миллиардов долларов в США в 2007 году и 11,7 миллиардов в 2008 году. На рынке работают как крупные игроки, так и и небольшие фирмы и стартапы, а также независимые разработчики и сообщества (напр. Kick starter и др.)."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

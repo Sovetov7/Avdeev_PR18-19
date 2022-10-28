@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEBEBE"
+    tools:context=".GamesHistory">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     История игр\n"
+                android:textColor="#000000"
+                android:textSize="31dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="317dp"
+                app:srcCompat="@drawable/history" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=
+                    "   •   Первые примитивные компьютерные игры были разработаны в 1950-х и 1960-х годах. Они работали на таких платформах, как университетские мейнфреймы и компьютеры EDSAC.
+                    \n   •   В 1952 году появилась программа «OXO», имитирующая игру «крестики-нолики», созданная А. С. Дугласом как часть его докторской диссертации в Кембриджском Университете.
+                    \n   •   В 1958 году Уильям Хигинботам для развлечения посетителей создал «Tennis for Two».
+                    \n   •   В 1962 году Стив Рассел  разработал игру «Spacewar!» для миникомпьютера PDP-1 в Массачусетском технологическом институте.
+                    \n   •   В 1967 году Баер создал игру пинг-понг, похожую на «Теннис для двоих"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

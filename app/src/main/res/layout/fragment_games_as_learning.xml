@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamesAsLearning">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="81dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     Игры и обучение\n"
+                android:textColor="#000000"
+                android:textSize="31dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:srcCompat="@drawable/learn" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=
+                    "   Цифровые обучающие игры — это предмет исследования педагогики компьютерной игры, которая в свою очередь является частью медиапедагогики (или медиаобразования). Относящаяся к обучающей игре педагогика компьютерных игр рассматривает три основные задачи:
+                    \n   •   Она исследует и описывает роль цифровых обучающих игр в педагогической практике (В школах, во время социальной работы, в домах престарелых и т. д.). Компьютерные игры вне педагогического контекста (относящихся к педагогике формах, распространении, действиях) и тематизация цифровых обучающих игр в педагогическом, но не научном дискурсе (например, в медиа, в профессиональной медийной литературе, проектах учебных занятий, а также в справочниках по дизайну цифровых обучающих игр)
+                    \n   •   Она критически относится к компьютерным играм в педагогической практике и педагогические, ненаучные высказывания о компьютерных играх. При этом она опирается на описательные результаты педагогического исследования компьютерных игр и на формы аргументации из педагогической этики, например, философии образования.
+                    \n   •   Она занимается методологическим и техническим исследованием (компьютерных игр) с целью дать научно-обоснованные указания для создания цифровых обучающих игр и их воспитательно-педагогического использования (развития и оценки). Методологическое исследование использует результаты обеих названных исследовательских задач (например, описание дидактически-методологического дизайна развлекательных компьютерных игр). Например, чтобы разработать научные гипотезы."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
